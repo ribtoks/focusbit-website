@@ -8,33 +8,33 @@
 }
 
 body {
-    font-family: Helvetica, sans-serif !important;
+    font-family: Helvetica, sans-serif;
     font-size: 16px;
     color: #001224;
     position: relative;
 }
 
 h1 {
-    font-size: 40px !important;
-    line-height: 48px !important;
+    font-size: 40px;
+    line-height: 48px;
     font-weight: bold;
 }
 
 @media screen and (max-width:375px) {
     h1 {
-        font-size: 26px !important;
-        line-height: 31px !important;
+        font-size: 26px;
+        line-height: 31px;
         font-weight: bold;
     }
 }
 
 h2 {
-    font-size: 26px !important;
-    font-weight: bold !important;
+    font-size: 26px;
+    font-weight: bold;
 }
 
 h3 {
-    font-size: 14px !important;
+    font-size: 14px;
 }
 
 .wrapper {
@@ -109,7 +109,7 @@ h3 {
 
 header {
     background-color: #EAF6FC;
-    border-bottom: 1px solid #CCE1ED !important;
+    border-bottom: 1px solid #CCE1ED;
 }
 
 .header {
@@ -130,19 +130,19 @@ header {
 
 .top-bar,
 .top-bar ul {
-    background-color: #EAF6FC !important;
+    background-color: #EAF6FC;
 }
 
 .title-bar.header {
-    -webkit-box-pack: justify !important;
-    -ms-flex-pack: justify !important;
-    justify-content: space-between !important;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
 }
 
 .header .menu {
-    -webkit-box-pack: end !important;
-    -ms-flex-pack: end !important;
-    justify-content: flex-end !important;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
 }
 
 .top-bar ul li a {
@@ -173,25 +173,25 @@ header {
     display: block;
     width: 100%;
     height: 2px;
-    background: #0266AD !important;
-    -webkit-box-shadow: 0 7px 0 #0266AD, 0 14px 0 #0266AD !important;
-    box-shadow: 0 7px 0 #0266AD !important, 0 14px 0 #0266AD !important;
+    background: #0266AD;
+    -webkit-box-shadow: 0 7px 0 #0266AD, 0 14px 0 #0266AD;
+    box-shadow: 0 7px 0 #0266AD, 0 14px 0 #0266AD;
     content: '';
 }
 
 .menu-icon:hover::after {
-    background: #0266AD!important;
-    -webkit-box-shadow: 0 7px 0 #0266AD !important, 0 14px 0 #0266AD !important;
-    box-shadow: 0 7px 0 #0266AD !important, 0 14px 0 #0266AD !important;
+    background: #0266AD;
+    -webkit-box-shadow: 0 7px 0 #0266AD, 0 14px 0 #0266AD;
+    box-shadow: 0 7px 0 #0266AD, 0 14px 0 #0266AD;
 }
 
 @media screen and (max-width: 640px) {
     .title-bar {
-        background-color: #EAF6FC !important;
+        background-color: #EAF6FC;
     }
     .top-bar,
     .top-bar ul {
-        background-color: #0266AD !important;
+        background-color: #0266AD;
     }
     .header .menu {
         -webkit-box-orient: vertical;
@@ -201,9 +201,9 @@ header {
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
-        -webkit-box-pack: start !important;
-        -ms-flex-pack: start !important;
-        justify-content: flex-start !important;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
         /* height: 100vh; */
     }
     .top-bar .logo {
@@ -216,7 +216,7 @@ header {
         margin-top: 40px;
     }
     .top-bar ul li a {
-        color: #fff !important;
+        color: #fff;
     }
 }
 
@@ -447,7 +447,7 @@ opacity: .8;
     font-size: 14px;
     font-weight: bold;
     display: block;
-    margin-bottom: 10px !important;
+    margin-bottom: 10px;
     max-width: 180px;
     margin: 0 auto;
 }
@@ -463,8 +463,8 @@ opacity: .8;
     .feature-item span,
     .feature-item h3 {
         display: block;
-        font-size: 10px !important;
-        margin-bottom: 0 !important;
+        font-size: 10px;
+        margin-bottom: 0;
     }
 }
 
@@ -817,10 +817,11 @@ footer p {
     color: #fff;
 }
 
-.page-header {
+.support-page-header {
 	padding: 50px 0;
-	background: /*url('../images/bg-grey.png')*/ no-repeat center center / cover;
+	/*background: /*url('../images/bg-grey.png') no-repeat center center / cover;*/
 	text-align: center;
+
 	h1 {
 		margin: 20px 0;
 		font-size: 20px;
@@ -829,6 +830,7 @@ footer p {
 			font-size: $font-size-h1;
 		}
 	}
+
 	.small-12 {
 		padding-left: 15px;
 		padding-right: 15px;
@@ -837,6 +839,7 @@ footer p {
 	p {
 		color: #3E434D;
 	}
+
 	.page-header-logo {
 		max-width: 96px;
 		height: auto;

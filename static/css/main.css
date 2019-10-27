@@ -154,11 +154,15 @@ header {
     color: #0266AD;
 }
 
-.top-bar ul li:nth-of-type(3) a {
+.top-bar ul li.active-item a {
+    color: #616161;
+}
+
+.top-bar ul li.highlight-item a {
     color: #008BFF;
 }
 
-.top-bar ul li:nth-of-type(3) a:hover {
+.top-bar ul li.highlight-item a:hover {
     color: #0266AD;
 }
 
@@ -811,4 +815,30 @@ footer p {
     font-size: 14px;
     font-weight: bold;
     color: #fff;
+}
+
+.page-header {
+	padding: 50px 0;
+	background: /*url('../images/bg-grey.png')*/ no-repeat center center / cover;
+	text-align: center;
+	h1 {
+		margin: 20px 0;
+		font-size: 20px;
+		font-weight: bold;
+		@media screen and (min-width: 64.063em) {
+			font-size: $font-size-h1;
+		}
+	}
+	.small-12 {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	p {
+		color: #3E434D;
+	}
+	.page-header-logo {
+		max-width: 96px;
+		height: auto;
+	}
 }

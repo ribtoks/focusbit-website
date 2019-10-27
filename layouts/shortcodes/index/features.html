@@ -1,0 +1,11 @@
+<div class="features">
+    <div class="wrapper">
+        {{ range $feature := $.Site.Data.features }}
+        <div class="feature-item">
+            <img src='{{ ( path.Join "/images/features/" $feature.icon) | relURL }}'>
+            <h3>{{$feature.title}}</h3>
+            <p>{{ safeHTML $feature.content }}</p>
+        </div>
+        {{ end }}
+    </div>
+</div>

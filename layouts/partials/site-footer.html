@@ -1,0 +1,23 @@
+<footer>
+    <div class="wrapper">
+        <div class="footer-top">
+            <div class="pages">
+                {{- range $item := $.Site.Data.navFooter }}
+                {{- if or ( hasPrefix $item.href  "http://" ) (hasPrefix $item.href "https://" ) -}}
+                <a href="{{$item.href}}">{{$item.title}}</a>
+                {{- else -}}
+                <a href="{{$item.href | relURL}}">{{$item.title}}</a>
+                {{- end -}}
+                {{- end -}}
+            </div>
+            <div class="social">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2018-{{ dateFormat "2006" now  }} Taras Kushnir</p>
+        </div>
+    </div>
+</footer>
+

@@ -1,0 +1,25 @@
+<header>
+	<div class="title-bar header" data-responsive-toggle="example-menu" data-hide-for="medium">
+		<a href="#" class="logo">
+			<img src="images/header-logo@3x.png" alt="logo">
+		</a>
+		<div class="top-bar-right">
+			<button class="menu-icon" type="button" data-toggle="example-menu"></button>
+		</div>
+	</div>
+
+	<div class="top-bar header" id="example-menu">
+		<a href="#" class="logo">
+			<img src="images/header-logo@3x.png" alt="logo">
+		</a>
+		<div class="top-bar-left">
+			<ul class="menu" data-dropdown-menu>
+                {{- range $nav := $.Site.Data.nav }}
+				<li>
+                    <a href="{{ $nav.href | relURL }}">{{ $nav.title }}</a>
+				</li>
+                {{- end -}}
+            </ul>
+		</div>
+	</div>
+</header>

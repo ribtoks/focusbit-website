@@ -1,8 +1,8 @@
 - title: "Support"
   href: "/support/"
 
-- title: "Free"
-  href: "/free/"
+  #- title: "Free"
+  #href: "/free/"
 
 - title: "Buy"
   href: "/buy/"

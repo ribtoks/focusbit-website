@@ -1,11 +1,11 @@
-- title: About us
-  href: /about/
+#- title: About us
+#  href: /about/
 
-- title: Blog
-  href: "/blog/"
+#- title: Blog
+#  href: "/blog/"
 
 - title: Privacy
   href: "/privacy/"
 
-- title: Facebook
-  href: "https://www.facebook.com/xpiksapp/"
+#- title: Facebook
+#  href: "https://www.facebook.com/xpiksapp/"

@@ -8,7 +8,9 @@
     {{- $.Scratch.Set "paddle"       $.Params.paddle -}}
     <main class="wrap">
         {{- partial "site-navigation.html" . -}}
-        <div class="main-content"> {{block "main" . }}{{ end }} </div>
+        <div class="main-content">
+            {{block "main" . }}{{ end }}
+        </div>
         {{ partial "free-download" . }}
     </main>
     {{- partial "site-footer.html" . -}}

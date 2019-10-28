@@ -5,9 +5,11 @@ url: "/support/"
 ---
 <div>
 {{< support/header >}}
-<section class="row section-default">
-  <div class="small-12 ">
-    {{< support/group >}}
-  </div>
-</section>
+<div class="grid-container">
+    <div class="grid-x">
+        <div class="cell">
+            {{< support/group >}}
+        </div>
+    </div>
+</div>
 </div>

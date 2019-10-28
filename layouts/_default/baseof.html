@@ -5,9 +5,12 @@
 </head>
 <body class='{{block "body_class" . }}{{ end }}'>
     {{- $.Scratch.Set "free_download"       $.Params.free_download -}}
-    {{- partial "site-navigation.html" . -}}
-    <div class="main-content"> {{block "main" . }}{{ end }} </div>
-    {{ partial "free-download" . }}
+    {{- $.Scratch.Set "paddle"       $.Params.paddle -}}
+    <main class="wrap">
+        {{- partial "site-navigation.html" . -}}
+        <div class="main-content"> {{block "main" . }}{{ end }} </div>
+        {{ partial "free-download" . }}
+    </main>
     {{- partial "site-footer.html" . -}}
     {{- partial "site-scripts.html" .  -}}
 </body>

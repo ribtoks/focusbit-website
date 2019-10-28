@@ -1,23 +1,23 @@
-<footer>
-    <div class="wrapper">
-        <div class="footer-top">
-            <div class="pages">
-                {{- range $item := $.Site.Data.navFooter }}
-                {{- if or ( hasPrefix $item.href  "http://" ) (hasPrefix $item.href "https://" ) -}}
-                <a href="{{$item.href}}">{{$item.title}}</a>
-                {{- else -}}
-                <a href="{{$item.href | relURL}}">{{$item.title}}</a>
-                {{- end -}}
-                {{- end -}}
-            </div>
-            <div class="social">
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-github"></i></a>
-            </div>
+<footer class="site-footer">
+    <div class="grid-x foowrapper">
+        <div class="small-6 cell">
+            <nav class="footer-nav">
+                <ul>
+                    {{- range $item := $.Site.Data.navFooter }}
+                    <li {{if hasPrefix $.Permalink (absURL $item.href) -}} class="active" {{ end }}>
+                        {{- if or ( hasPrefix $item.href  "http://" ) (hasPrefix $item.href "https://" ) -}}
+                        <a href="{{$item.href}}">{{$item.title}}</a>
+                        {{- else -}}
+                        <a href="{{$item.href | relURL}}">{{$item.title}}</a>
+                        {{- end -}}
+                    </li>
+                    {{- end}}
+                </ul>
+            </nav>
         </div>
-        <div class="footer-bottom">
-            <p>&copy; 2018-{{ dateFormat "2006" now  }} Taras Kushnir</p>
+        <div class="cell auto">&nbsp;</div>
+        <div class="small-3 cell">
+            <span class="darkgray">&copy; 2018-{{ dateFormat "2006" now  }} Taras Kushnir</span>
         </div>
     </div>
 </footer>
-

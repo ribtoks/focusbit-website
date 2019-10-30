@@ -1,0 +1,236 @@
+.section {
+    padding: 50px 0;
+}
+
+@media screen and (max-width:480px) {
+    .section {
+        padding: 40px 0;
+    }
+}
+
+#section-one,
+#section-three {
+    background-color: #F8F9FB;
+}
+
+#section-two {
+    background-color: #FAFAFC;
+}
+
+.section .wrapper {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 60px 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 60px;
+}
+
+@media screen and (max-width:991px) {
+    .section .wrapper {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+        -ms-grid-rows: auto 1fr;
+        grid-template-rows: auto 1fr;
+        height: auto;
+    }
+    .section .wrapper>*:nth-child(1) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+    }
+    .section .wrapper>*:nth-child(2) {
+        -ms-grid-row: 2;
+        -ms-grid-column: 1;
+    }
+}
+
+.section-image {
+    display: block;
+    width: 480px;
+    height: 500px;
+    background-color: #F0F2F7;
+}
+
+@media screen and (max-width:991px) {
+    .section-image {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .section-image {
+        height: 300px;
+    }
+}
+
+.section-content {
+    margin-top: 160px;
+    max-width: 360px;
+}
+
+@media screen and (max-width:991px) {
+    .section-content {
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+}
+
+#section-two .section-content {
+    justify-self: flex-end;
+}
+
+@media screen and (max-width:991px) {
+    #section-two .section-content {
+        -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+        order: -1;
+        justify-self: flex-start;
+    }
+}
+
+.section-content h1 {
+    margin-bottom: 20px;
+}
+
+.section-content p {
+    line-height: 22px;
+}
+
+@media screen and (max-width:375px) {
+    .section-content p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+
+.cta-section {
+    padding-top: 89px;
+    padding-bottom: 88px;
+}
+
+.cta-section .wrapper {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-width:991px) {
+    .cta-section .wrapper {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+        -ms-grid-rows: auto 1fr;
+        grid-template-rows: auto 1fr;
+        height: auto;
+    }
+    .cta-section .wrapper>*:nth-child(1) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+    }
+    .cta-section .wrapper>*:nth-child(2) {
+        -ms-grid-row: 2;
+        -ms-grid-column: 1;
+    }
+}
+
+.component-buy {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 127px 50px 1fr;
+    grid-template-columns: 127px 1fr;
+    grid-column-gap: 50px;
+}
+
+@media screen and (max-width:991px) {
+    .component-buy {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+        -ms-grid-rows: 1fr auto;
+        grid-template-rows: 1fr auto;
+        -ms-grid-column-align: center;
+        justify-self: center;
+    }
+    .component-buy>*:nth-child(1) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+    }
+    .component-buy>*:nth-child(2) {
+        -ms-grid-row: 2;
+        -ms-grid-column: 1;
+    }
+}
+
+.component-buy-content {
+    max-width: 364px;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+}
+
+@media screen and (max-width:991px) {
+    .component-buy-content {
+        text-align: center;
+    }
+}
+
+.component-buy img {
+    display: block;
+    width: 127px;
+    height: 127px;
+}
+
+@media screen and (max-width:991px) {
+    .component-buy img {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .component-buy h2 {
+        margin-top: 40px;
+    }
+}
+
+.component-buy p {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+@media screen and (max-width:991px) {
+    .component-buy p {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+}
+
+.buttonGroup {
+    justify-self: flex-end;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+}
+
+@media screen and (max-width:991px) {
+    .buttonGroup {
+        -ms-grid-column-align: center;
+        justify-self: center;
+    }
+}
+
+.buttonGroup .btn-primary {
+    margin-right: 40px;
+}
+
+@media screen and (max-width:375px) {
+    .buttonGroup .btn-primary {
+        margin-right: 0px;
+    }
+    .buttonGroup {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+}

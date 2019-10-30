@@ -2,4 +2,10 @@
 
 // Variables
 @import "variables";
-@import "custom";
+
+@import "modules/base";
+@import "modules/section";
+@import "modules/footer";
+@import "modules/support";
+@import "modules/buy";
+@import "modules/content";

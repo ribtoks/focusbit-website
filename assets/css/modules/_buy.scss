@@ -1,0 +1,30 @@
+.page-downloads {
+    div.product {
+        margin: auto;
+        margin-top: 50px;
+        background-color: #eaf6fc;
+        padding: 70px 120px;
+
+        @media screen and (min-width: 768px) {
+            max-width: 900px;
+        }
+
+        .license {
+            color: #001224;
+            font-size: 26px;
+            font-weight: bold;
+        }
+
+        .price {
+            color: #008BFF;
+            font-size: 46px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .buy-button {
+            display: flex; 
+            justify-content: flex-end;
+        }
+    }
+}

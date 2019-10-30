@@ -1,0 +1,33 @@
+{{ define "main" }}
+{{- $.Scratch.Set "free_download_class" "section-gray" -}}
+<div class="post-list-wrapper">
+  <div class="post-list">
+      {{ $pager := $.Paginate ( where $.Site.RegularPages "Type" "blog" ) 5 }}
+      {{ range $page := $pager.Pages }}
+      <div class="post-item">
+        <div class="post-date">
+          <strong>{{ dateFormat "2" $page.Date }}</strong>
+          {{ dateFormat "Jan" $page.Date }}
+        </div>
+        <h2>
+          <a class="post-link" href="{{ $page.RelPermalink}}">{{ $page.Title }}</a>
+        </h2>
+        <div class="post-content">
+            {{- $about := ($page.Content | plainify | htmlUnescape ) -}}
+            {{- $about = (replaceRE "(?m)(\\r|\\n)" " " $about) -}}
+            {{- $about = (replaceRE " +"    " " $about) -}}
+            {{- $about = (replaceRE "^ +"  ""  $about) -}}
+            {{- $about = (replaceRE " +$"  ""  $about) -}}
+            {{- $about = (truncate 250  " ..."  $about) -}}
+            {{ $about }}
+        </div>
+        <a href="{{ $page.RelPermalink }}" class="">Read more</a>
+      </div>
+      {{end}}
+  </div>
+</div>
+{{- $.Scratch.Set "pager" $pager -}}
+{{ partial "pager-blog-list" . }}
+{{ end }}
+
+{{- define "body_class" -}} blog-page {{- end -}}

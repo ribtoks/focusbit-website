@@ -1,8 +1,9 @@
 {{- if ($.Scratch.Get "free_download")  -}}
-<div class="cta-section">
+{{- $cls := $.Scratch.Get "free_download_class"  -}}
+<div class="cta-section {{$cls}}">
     <div class="wrapper">
         <div class="component-buy">
-            <img src="images/Icon@3x.png" alt="logo icon">
+            <img src="/images/Icon@3x.png" alt="logo icon">
             <div class="component-buy-content">
                 <h2>FocusBit - achieve more</h2>
                 <p>Available for macOS and Windows</p>

@@ -74,11 +74,13 @@ h3 {
     background: transparent;
 }
 
+/*
 @media screen and (max-width:480px) {
     .btn {
         width: 130px;
     }
 }
+*/
 
 .btn-primary {
     line-height: 52px;
@@ -429,9 +431,9 @@ header .nav-item:hover {
 }
 
 @media screen and (max-width:480px) {
-    .feature-item:nth-of-type(3) h3 {
-        display: none;
-    }
+    //.feature-item:nth-of-type(3) h3 {
+    //    display: none;
+    //}
     .feature-item span,
     .feature-item h3 {
         display: block;

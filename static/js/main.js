@@ -1,39 +1,57 @@
-function isLinux() {
-    return navigator.platform.indexOf('Linux x86_64') > -1
-}
+$(document).ready(function() {
 
-function isWindows() {
-    return navigator.platform.indexOf('Win') > -1
-}
+	function getOS() {
+		var userAgent = window.navigator.userAgent,
+			platform = window.navigator.platform,
+			macosPlatforms = ['Macintosh', 'MacIntel', 'MacPPC', 'Mac68K'],
+			windowsPlatforms = ['Win32', 'Win64', 'Windows', 'WinCE'],
+			iosPlatforms = ['iPhone', 'iPad', 'iPod'],
+			os = null;
 
-function isMac() {
-    return navigator.platform.indexOf('Mac') > -1
-}
+		if (macosPlatforms.indexOf(platform) !== -1) {
+			os = 'mac';
+		} else if (iosPlatforms.indexOf(platform) !== -1) {
+			os = 'mac';
+		} else if (windowsPlatforms.indexOf(platform) !== -1) {
+			os = 'windows';
+		} else {
+			os = 'linux';
+		}
 
-var isLinux = isLinux();
-var isWin = isWindows();
-var isMac = isMac();
+		return os;
+	}
 
-if (isLinux) {
-    var fileLink = "./download/linux.zip"
-} else if (isWin) {
-    var fileLink = "./download/windows.zip"
-} else if (isMac) {
-    var fileLink = "./download/mac.zip"
-} else {
-    var fileLink = "./download/windows.zip"
-}
+	var DownloadTabs = {
+		selectors: {
+			tab: '.tabs-os-button',
+			content: '.tab-download-content',
+		},
+		activeClass: 'active-tab',
+		init: function(os) {
+			var _ = this;
 
+			_.select(os);
+			_.attachEvents();
+		},
+		attachEvents: function() {
+			var _ = this;
 
-$(document).ready(function($) {
-    $('#tryFree').append('href', fileLink)
-        .attr('download', fileLink);
-});
+			/*$(_.selectors.tab).click(function(ev) {
+				ev.preventDefault();
+				var os = $(this).attr('data-os');
 
-jQuery(document).ready(function() {
-    var downloadButton = jQuery('.downloadFree');
+				_.select(os);
+			});*/
+		},
+		select(os) {
+			var _ = this;
 
-    downloadButton.each(function(index) {
-        jQuery(this).attr('href', fileLink);
-    });
+			$(_.selectors.tab).removeClass(_.activeClass);
+			$(_.selectors.content).removeClass(_.activeClass);
+			$("[data-os='" + os + "']").addClass(_.activeClass);
+
+		}
+	}
+
+    DownloadTabs.init(getOS());
 });

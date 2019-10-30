@@ -1,4 +1,10 @@
 {{ define "main" }}
-  {{- .Content -}}
+<div class="grid-container">
+    <div class="grid-x">
+        <div class="cell small-12">
+            {{- .Content -}}
+        </div>
+    </div>
+</div>
 {{ end }}
 {{- define "body_class" -}} page-downloads {{- end -}}

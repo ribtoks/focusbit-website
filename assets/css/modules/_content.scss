@@ -1,5 +1,9 @@
 .content {
-    margin: 70px 150px 0 100px;
+    margin: 20px;
+
+    @media screen and (min-width: 64.063em) {
+        margin: 70px 150px 0 100px;
+    }
 
     .content-header {
         margin-bottom: 40px;

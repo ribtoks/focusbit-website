@@ -3,8 +3,8 @@
   content: 'Set a time for your task and turn timer'
 
 - icon: 'list-icon.svg'
-  title: 'To Do and Done'
-  content: 'Check what you did. Plane tasks in advance'
+  title: 'TODO and Done'
+  content: 'Check what you did. Plan tasks in advance'
 
 - icon: 'settings-icon.svg'
   title: 'Manage your settings'

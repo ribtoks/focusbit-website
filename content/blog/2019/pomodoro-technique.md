@@ -1,19 +1,20 @@
 ---
 layout: post
-title: "What is a pomodoro technique"
+title: "Using pomodoro technique with FocusBit"
 date: 2019-10-30T08:45:31+02:00
+header_image: "/images/blog/tomato.jpg"
 ---
 
-Nothing screams lack of preparation louder than you uploading your stock images when the festivities have already started. You will sell lesser content because buyers normally prefer choosing the images they intend to use during the festivities early on. How then do you plan for the festivities when they are three to four months away and produce the best photos and videos? This article gives some pointers you should consider.
+### What is the Pomodoro technique?
 
-### How is early preparedness an advantage?
+Pomodoro is a time management technique for improving productivity. It was developed in Italy in 80s. It breaks down work into smaller tasks that can be done in 25-minute intervals, separated by short 5-minute breaks. During working for 25 minutes you should only work on the task you decided. In other words you should postpone checking for social media and emails for when the break starts. You can [read more on Wikipedia](https://en.wikipedia.org/wiki/Pomodoro_Technique) about it.
 
-- **Buyers love to plan early enough.** By the end of October, a lot of buyers normally have a set of the artistic content they need to use during the upcoming Christmas season. This means that some had already started searching for the best stock images and videos as early as September even without the intention of buying. By the time October reaches, most buyers are already seeking to secure the art pieces they have selected during their research. It would be very hard to get a willing buyer when the month ends because a majority of them would have already made up their mind. While your art pieces might be of high quality, the time disadvantage means that buyers will rarely pay attention to them if you upload them too late.
+Despite being a very simple principle, it helped surprisingly many people to improve personal productivity. This system is very adaptable to different kinds of work. It doesn't matter what you're doing: writing, answering email or programming. The clock makes you accountable and focused on the task. Especially when you write down this task first.
 
-- **Increased Visibility time**. It never hurts to have your works uploaded early enough even before buyers start streaming in. This is because you get more visibility when the buyers have more time and freedom to appreciate the meticulousness of your work. Surely, you do not want to create something in a hurry and let it be bought hurriedly only for your reputation to be ruined in the process.
+### How can you use Pomodoro with FocusBit?
 
-- **Enhanced shooting comfort.** Even though hurry can bring out exceptional creativity in you, rarely will you be able to deliver great art pieces. Consider, for instance, the fact that you may want to look for some models who might have already travelled to enjoy the festivities if you wait too long. However, when you shoot early enough, you are only left with minor editing details meaning that the possibility of delivering quality pieces is higher. When you start early you have more time to react to any challenges that may come up and still deliver your best work greatly.
+Despite being great approach overall, 25 minutes is kind of one-size-fits all solution. So in FocusBit you can set a custom time interval, however restrain from making it very long. Shorter intervals help you to stay on track so everything from 15 to 35 minutes should work just great.
 
-<br />
+After you decide on the inteval and write down your task in FocusBit, all is left to do is to start the timer. FocusBit will optionally notify you when one, two and three quarters of your interval will pass. Also FocusBit can show you progress on the taskbar or as a tray icon. When you will use this first time you will appreciate how ticking clock positively affects your work.
 
-
+What about breaks? In Pomodoro they should be 5 minutes between tasks and 15 minutes each 4 "pomodoros". With FocusBit you can spend as much time between the tasks as needed. We believe that narrowing focus during work is more important than time-boxing rests.

@@ -1,29 +1,31 @@
 {{ $prevPageLink  := .Scratch.Get "prevPageLink"  }}
   {{ $nextPageLink  := .Scratch.Get "nextPageLink"  }}
-  <div class="pagination"><div class="grid-x">
-  <div class="cell small-6 pagination-prev">
-    {{ if $prevPageLink }}
-    <a href="{{ $prevPageLink }}" class="previous">
-      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="8">
-        <g fill="none" fill-rule="evenodd" stroke="#1FC1C4" stroke-width="2">
-          <path stroke-linecap="square" d="M11 4H3.429"/>
-          <path d="M5 6.828L2.172 4 5 1.172"/>
-        </g>
-      </svg>
-      Previous
-    </a>
-    {{ end }}
+  <div class="pagination">
+      <div class="grid-x">
+          <div class="cell small-6 pagination-prev">
+              {{ if $prevPageLink }}
+              <a href="{{ $prevPageLink }}" class="previous">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="8">
+                      <g fill="none" fill-rule="evenodd" stroke="#1FC1C4" stroke-width="2">
+                      <path stroke-linecap="square" d="M11 4H3.429"/>
+                      <path d="M5 6.828L2.172 4 5 1.172"/>
+                      </g>
+                  </svg>
+                  Previous
+              </a>
+              {{ end }}
+          </div>
+          <div class="cell small-6 pagination-next">
+              {{ if $nextPageLink }}
+              <a href="{{ $nextPageLink }}" class="next">
+                  Next
+                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="8">
+                      <g fill="none" fill-rule="evenodd" stroke="#1FC1C4" stroke-width="2">
+                      <path stroke-linecap="square" d="M1 4h7.571"/><path d="M7 6.828L9.828 4 7 1.172"/>
+                      </g>
+                  </svg>
+              </a>
+              {{ end }}
+          </div>
+      </div>
   </div>
-  <div class="cell small-6 pagination-next">
-    {{ if $nextPageLink }}
-    <a href="{{ $nextPageLink }}" class="next">
-      Next
-      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="8">
-        <g fill="none" fill-rule="evenodd" stroke="#1FC1C4" stroke-width="2">
-          <path stroke-linecap="square" d="M1 4h7.571"/><path d="M7 6.828L9.828 4 7 1.172"/>
-        </g>
-      </svg>
-    </a>
-    {{ end }}
-  </div>
-</div></div>

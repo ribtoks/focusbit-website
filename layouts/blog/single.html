@@ -2,23 +2,27 @@
 {{- $.Scratch.Set "free_download" true -}}
 {{- $.Scratch.Set "free_download_class" "section-gray" -}}
 <div class="grid-container">
-<div class="grid-x">
-    <div class="cell small-12">
-        <!-- single post -->
-        <div class="single-post">
-            <div class="post-item">
-                <div class="post-date">
-                    <strong>{{ dateFormat "2" $.Date }}</strong> {{ dateFormat "Jan" $.Date }}
-                </div>
-                <h2>{{ $.Title }}</h2>
-                <div class="post-content">
-                    {{ safeHTML .Content }}
+    <div class="grid-x">
+        <div class="cell small-12">
+            <!-- single post -->
+            <div class="single-post">
+                <div class="post-item">
+                    <h2>{{ $.Title }}</h2>
+                    <span class="post-list-date">Written on {{ dateFormat "September 2, 2006" $.Date }}</span>
+
+                    <div class="thumbnail-container">
+                        <a href="{{ .RelPermalink}}">
+                            <img src="{{ .Param "header_image" | relURL }}">
+                        </a>
+                    </div>
+                    <div class="post-content">
+                        {{ safeHTML .Content }}
+                    </div>
                 </div>
             </div>
+            <!-- /single post -->
         </div>
-        <!-- /single post -->
     </div>
-</div>
 </div>
 <!--{{ partial "pager-blog" . }}-->
 {{ end }}

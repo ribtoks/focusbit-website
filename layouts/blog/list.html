@@ -5,13 +5,14 @@
       {{ $pager := $.Paginate ( where $.Site.RegularPages "Type" "blog" ) 5 }}
       {{ range $page := $pager.Pages }}
       <div class="post-item">
-        <div class="post-date">
-          <strong>{{ dateFormat "2" $page.Date }}</strong>
-          {{ dateFormat "Jan" $page.Date }}
-        </div>
         <h2>
           <a class="post-link" href="{{ $page.RelPermalink}}">{{ $page.Title }}</a>
         </h2>
+        <div class="thumbnail-container">
+            <a href="{{ $page.RelPermalink}}">
+                <img src="{{ $page.Param "header_image" | relURL }}">
+            </a>
+        </div>
         <div class="post-content">
             {{- $about := ($page.Content | plainify | htmlUnescape ) -}}
             {{- $about = (replaceRE "(?m)(\\r|\\n)" " " $about) -}}
@@ -20,8 +21,9 @@
             {{- $about = (replaceRE " +$"  ""  $about) -}}
             {{- $about = (truncate 250  " ..."  $about) -}}
             {{ $about }}
+            &nbsp;<a href="{{ $page.RelPermalink }}" class="read-more">Read more</a>
         </div>
-        <a href="{{ $page.RelPermalink }}" class="">Read more</a>
+        <span class="post-list-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ dateFormat "2 Jan" $page.Date }} - <i class="fa fa-clock-o" aria-hidden="true"></i> {{ math.Round (div (countwords $page.Content) 220.0) }} minutes read.</span>
       </div>
       {{end}}
   </div>

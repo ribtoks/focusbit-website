@@ -36,12 +36,11 @@ $(document).ready(function() {
 		attachEvents: function() {
 			var _ = this;
 
-			/*$(_.selectors.tab).click(function(ev) {
+			$(_.selectors.tab).click(function(ev) {
 				ev.preventDefault();
 				var os = $(this).attr('data-os');
-
 				_.select(os);
-			});*/
+			});
 		},
 		select(os) {
 			var _ = this;

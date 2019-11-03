@@ -5,4 +5,4 @@ url: "/download/"
 ---
 
 {{< download/component >}}
-{{< index/features >}}
+{{< download/whatsnew >}}

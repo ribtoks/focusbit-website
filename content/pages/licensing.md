@@ -12,3 +12,5 @@ On both platforms we support a <strong>free 2 week trial</strong> to allow you f
 License is valid both for Windows and macOS version of the application so you can enjoy using FocusBit everywhere.
 
 Prices for FocusBit may be different in your currency. In order to see how much it costs locally you have to start buying a license.
+
+After the purchase allow some time for license generation. After it is ready, we will send it to your email.

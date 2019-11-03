@@ -6,4 +6,4 @@ paddle: true
 ---
 
 {{< buy/header >}}
-{{< buy/faq>}}
+{{< buy/faq >}}

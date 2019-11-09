@@ -26,7 +26,7 @@ Right-click the archive and select "Extract All"
 
 Select destination and press "Extract"
 
-![extract](/images/blog/extract-destination.png)
+![destination](/images/blog/extract-destination.png)
 
 <br />
 

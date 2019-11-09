@@ -61,13 +61,26 @@
         max-width: 155px;
         display: inline-block;
         font-size: 24px;
+
+        @media screen and (min-width: 64.063em) {
+            margin-top: 20px;
+        }
     }
+
     .download-button {
         margin-top: 35px;
     }
 }
 
 .whatsnew-content {
+    .getting-started-tab {
+        font-size: 16px;
+        display: none;
+
+        &.active-tab {
+            display: inline-block;
+        }
+    }
     .tabs-os-button {
         font-size: 16px;
 

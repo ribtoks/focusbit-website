@@ -25,6 +25,7 @@ $(document).ready(function() {
 		selectors: {
 			tab: '.tabs-os-button',
 			content: '.tab-download-content',
+            help: '.getting-started-tab',
 		},
 		activeClass: 'active-tab',
 		init: function(os) {
@@ -47,6 +48,7 @@ $(document).ready(function() {
 
 			$(_.selectors.tab).removeClass(_.activeClass);
 			$(_.selectors.content).removeClass(_.activeClass);
+			$(_.selectors.help).removeClass(_.activeClass);
 			$("[data-os='" + os + "']").addClass(_.activeClass);
 
 		}

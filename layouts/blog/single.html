@@ -7,9 +7,10 @@
             <!-- single post -->
             <div class="single-post">
                 <div class="post-item">
-                    <h2>{{ $.Title }}</h2>
-                    <span class="post-list-date">Written on {{ dateFormat "September 2, 2006" $.Date }}</span>
-
+                    <div class="post-header">
+                        <h2>{{ $.Title }}</h2>
+                        <span class="post-list-date">Written on {{ dateFormat "September 2, 2006" $.Date }}</span>
+                    </div>
                     <div class="thumbnail-container">
                         <a href="{{ .RelPermalink}}">
                             <img src="{{ .Param "header_image" | relURL }}">

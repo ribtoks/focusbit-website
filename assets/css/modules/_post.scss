@@ -55,6 +55,12 @@
     }
 }
 
+.post-header {
+    h2 {
+        margin-bottom: 0px !important;
+    }
+}
+
 .single-post {
     max-width: 900px;
     margin-left: auto;
@@ -63,6 +69,9 @@
         font-weight: bold;
         font-size: 18px;
     }
+}
+
+.post-content {
     img {
         max-height: 500px;
     }
@@ -74,7 +83,7 @@
         .post-item {
             margin: 70px 50px 0 50px;
             h2 {
-                margin-bottom: 0px;
+                margin-bottom: 5px;
             }
         }
     }

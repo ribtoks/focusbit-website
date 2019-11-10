@@ -135,7 +135,7 @@ FocuBit is an offline-first software. We do not offer cloud syncronization or on
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://focusbitapp.com/support/</guid>
-      <description>     We’re here to help you out     document.getElementById(&#39;forum_embed&#39;).src = &#39;https://groups.google.com/forum/embed/?place=forum/focusbit-support&#39; + &#39;&amp;showsearch=true&amp;showpopout=true&amp;showtabs=false&#39; + &#39;&amp;parenturl=&#39; + encodeURIComponent(window.location.href);      </description>
+      <description>     We’re here to help you out     document.getElementById(&#39;forum_embed&#39;).src = &#39;https://groups.google.com/forum/embed/?place=forum/focusbit-support&#39; + &#39;&amp;showsearch=true&amp;showpopout=true&amp;showtabs=false&#39; + &#39;&amp;parenturl=&#39; + encodeURIComponent(window.location.href);    </description>
     </item>
     
   </channel>

@@ -1,15 +1,72 @@
 //Font
 $font-size-h1: 36px;
 $font-size-h1-small: 24px;
+
+// these ones are NOT used anywhere
+$font-size-h2: 26px;
+$font-size-h2-small: 18px;
+
+$font-size-h3: $font-size-h2-small;
+$font-size-h3-small: 14px;
+
 $primary-text-color: #30333B;
 
 $light-blue-color: #eaf6fc;
 $blue-color: #008bff;
 $dark-blue-color: #1068ab;
-$primary-active-color: #008bff;
+
+$btn-primary-active-color: $blue-color;
+$btn-primary-hover-color: #0266AD;
+
+$btn-secondary-active-color: $btn-primary-hover-color;
+$btn-secondary-border-color: $btn-primary-hover-color;
+
+$primary-link-color: $primary-text-color;
+$primary-link-hover: $blue-color;
+
 $secondary-active-color: #eeeeee;
 $secondary-text-color: #616161;
 
 $btn-bg-hover-color: $dark-blue-color;
 $btn-bg-color: $blue-color;
 $font-size-h1: 26px;
+
+$not-found-color: #474B54;
+$not-found-background: #f5f5f5;
+
+$body-background: #001224;
+$header-background: $light-blue-color;
+
+$top-nav-background: $light-blue-color;
+$top-nav-color: $body-background;
+$top-nav-hover-color: $btn-primary-hover-color;
+$top-nav-active-color: #616161;
+$top-nav-highlight-color: $blue-color;
+$top-nav-highlight-hover: $top-nav-hover-color;
+
+$top-nav-mobile-background: $btn-primary-hover-color;
+$top-nav-mobile-color: $body-background;
+$top-nav-mobile-hover: $btn-primary-hover-color;
+
+$menu-icon-background: $btn-primary-hover-color;
+
+$hero-background: $light-blue-color;
+$hero-image-mobile-background: #CCE1ED;
+
+$buy-background: $light-blue-color;
+$buy-price-color: $blue-color;
+$buy-license-color: $body-background;
+
+$footer-background: $btn-primary-hover-color;
+
+$pagination-hover-color: $dark-blue-color;
+$pagination-hover-fill: $dark-blue-color;
+$pagination-hover-stroke: $dark-blue-color;
+
+$pagination-visited-color: $blue-color;
+$pagination-visited-fill: $blue-color;
+$pagination-visited-stroke: $blue-color;
+
+$section-gray-background: #fafafc;
+
+$support-color: #3E434D;

@@ -1,6 +1,6 @@
 .page-downloads {
     div.product {
-        background-color: #eaf6fc;
+        background-color: $buy-background;
         margin: 30px;
         padding: 30px;
         border-radius: 10px;
@@ -11,13 +11,13 @@
         }
 
         .license {
-            color: #001224;
+            color: $buy-license-color;
             font-size: 26px;
             font-weight: bold;
         }
 
         .price {
-            color: #008BFF;
+            color: $buy-price-color;
             font-size: 46px;
             font-weight: bold;
             margin-top: 20px;

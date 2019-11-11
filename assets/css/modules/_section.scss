@@ -97,7 +97,7 @@
 }
 
 .section-gray {
-    background-color: #FAFAFC;
+    background-color: $section-gray-background;
 }
 
 @media screen and (max-width:375px) {
@@ -192,6 +192,7 @@
 @media screen and (max-width:991px) {
     .component-buy h2 {
         margin-top: 40px;
+        font-size: $font-size-h2;
     }
 }
 

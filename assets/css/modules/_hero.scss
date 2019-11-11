@@ -1,6 +1,6 @@
 .hero {
     height: auto;
-    background-color: #EAF6FC;
+    background-color: $hero-background;
 }
 
 .hero .wrapper {
@@ -40,7 +40,7 @@
 @media screen and (max-width:768px) {
     .hero-image {
         height: 320px;
-        background-color: #CCE1ED;
+        background-color: $hero-image-mobile-background;
     }
 }
 

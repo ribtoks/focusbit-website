@@ -27,19 +27,19 @@
             text-decoration: none;
             display: inline-block;
             &:hover {
-                color: $btn-bg-hover-color !important;
+                color: $pagination-hover-color !important;
                 path,
                 polyline {
-                    fill: $btn-bg-hover-color !important;
-                    stroke: $btn-bg-hover-color !important;
+                    fill: $pagination-hover-fill !important;
+                    stroke: $pagination-hover-stroke !important;
                 }
             }
             &:visited {
-                color: $btn-bg-color;
+                color: $pagination-visited-color;
                 path,
                 polyline {
-                    fill: $btn-bg-color;
-                    stroke: $btn-bg-color;
+                    fill: $pagination-visited-fill;
+                    stroke: $pagination-visited-stroke;
                 }
             }
         }

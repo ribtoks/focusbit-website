@@ -26,20 +26,18 @@
             position: relative;
             text-decoration: none;
             display: inline-block;
+            color: $pagination-color;
+                path,
+                polyline {
+                    fill: $pagination-fill;
+                    stroke: $pagination-stroke;
+                }
             &:hover {
                 color: $pagination-hover-color !important;
                 path,
                 polyline {
                     fill: $pagination-hover-fill !important;
                     stroke: $pagination-hover-stroke !important;
-                }
-            }
-            &:visited {
-                color: $pagination-visited-color;
-                path,
-                polyline {
-                    fill: $pagination-visited-fill;
-                    stroke: $pagination-visited-stroke;
                 }
             }
         }

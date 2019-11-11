@@ -1,88 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>FocusBit</title>
+    <title>Xpiks is a free and open source keywording and uploading tool on FocusBit</title>
     <link>https://focusbitapp.com/</link>
-    <description>Recent content on FocusBit</description>
+    <description>Recent content in Xpiks is a free and open source keywording and uploading tool on FocusBit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 08 Nov 2019 21:59:01 +0200</lastBuildDate>
     
 	<atom:link href="https://focusbitapp.com/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Getting started with FocusBit on macOS</title>
-      <link>https://focusbitapp.com/getting-started-macos/</link>
-      <pubDate>Fri, 08 Nov 2019 21:59:01 +0200</pubDate>
-      
-      <guid>https://focusbitapp.com/getting-started-macos/</guid>
-      <description>FocusBit installation should be a fast and easy process.
-1. Download FocusBit Go to Downloads page and get the version for macOS.
-
-2. Open package and move FocusBit to Applications 
-3. Start FocusBit Open Launchpad and find FocusBit</description>
-    </item>
-    
-    <item>
-      <title>How to manage Big tasks with pomodoro technique</title>
-      <link>https://focusbitapp.com/blog/2019/manage-big-tasks/</link>
-      <pubDate>Fri, 08 Nov 2019 20:39:01 +0200</pubDate>
-      
-      <guid>https://focusbitapp.com/blog/2019/manage-big-tasks/</guid>
-      <description>&amp;ldquo;Big&amp;rdquo; for pomodoro is anything that does not fit into the standard 25 minutes. In practice it appears that almost all tasks initially are &amp;ldquo;Big&amp;rdquo;. Typically you would &amp;ldquo;divide and conquer&amp;rdquo; such things but this only works when the scope of the task is known ahead. So how to tackle it when it&amp;rsquo;s not?
-Make a plan to make a plan Usually what I do is I start a reasonably small pomodoro timer for just making a plan.</description>
-    </item>
-    
-    <item>
-      <title>How to accomplish things you&#39;re not interested in</title>
-      <link>https://focusbitapp.com/blog/2019/accomplish-things-not-interested-in/</link>
-      <pubDate>Fri, 08 Nov 2019 20:26:31 +0200</pubDate>
-      
-      <guid>https://focusbitapp.com/blog/2019/accomplish-things-not-interested-in/</guid>
-      <description>Motivation is a great thing. It helps to move mountains, make lemonade from the apples or build the snowman out of rain. Also it helps to perform your daily job. But when it&amp;rsquo;s gone, even Chuck Norris cannot help you to bring it back. The problem is that it can be gone in the middle of the day leaving you with a pile of work that you don&amp;rsquo;t want to do but you have to.</description>
-    </item>
-    
-    <item>
-      <title>Getting started with FocusBit on Windows</title>
-      <link>https://focusbitapp.com/getting-started-windows/</link>
-      <pubDate>Fri, 08 Nov 2019 18:59:01 +0200</pubDate>
-      
-      <guid>https://focusbitapp.com/getting-started-windows/</guid>
-      <description>FocusBit installation should be a fast and easy process.
-1. Download FocusBit Go to Downloads page and get the version for Windows.
-
-2. Extract archive Right-click the archive and select &amp;ldquo;Extract All&amp;rdquo;
-
-Select destination and press &amp;ldquo;Extract&amp;rdquo;
-
-3. Open FocusBit Find file &amp;ldquo;FocusBit.exe&amp;rdquo; and double-click it.</description>
-    </item>
-    
-    <item>
-      <title>Using pomodoro technique with FocusBit</title>
-      <link>https://focusbitapp.com/blog/2019/pomodoro-technique/</link>
-      <pubDate>Wed, 30 Oct 2019 08:45:31 +0200</pubDate>
-      
-      <guid>https://focusbitapp.com/blog/2019/pomodoro-technique/</guid>
-      <description>What is the Pomodoro technique? Pomodoro is a time management technique for improving productivity. It was developed in Italy in 80s. It breaks down work into smaller tasks that can be done in 25-minute intervals, separated by short 5-minute breaks. During 25 minutes interval (called &amp;ldquo;pomodoro&amp;rdquo;) you should only work on the task you decided. In other words you should postpone checking social media and emails for when the break starts.</description>
-    </item>
-    
-    <item>
-      <title>Getting started with FocusBit on Linux</title>
-      <link>https://focusbitapp.com/getting-started-linux/</link>
-      <pubDate>Sun, 08 Sep 2019 18:59:01 +0200</pubDate>
-      
-      <guid>https://focusbitapp.com/getting-started-linux/</guid>
-      <description>FocusBit installation should be a fast and easy process.
-1. Download FocusBit Go to Downloads page and get the version for Linux.
-
-2. Allow Execution as a Program Right-click the AppImage file and select &amp;ldquo;Properties&amp;rdquo;
-
-Check the checkbox &amp;ldquo;Allow this file to run as a program&amp;rdquo; (this might be different in your desktop environment)
-
-3. Open FocusBit Double-click AppImage file - you&amp;rsquo;re good to go.</description>
-    </item>
     
     <item>
       <title>Buy</title>

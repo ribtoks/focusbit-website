@@ -45,3 +45,7 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.cryptedmail:after {
+    content: attr(data-n) "@" attr(data-d) "." attr(data-t); 
+}

@@ -56,3 +56,27 @@
     content: attr(data-n) "@" attr(data-d) "." attr(data-t); 
 }
 
+#avatar {
+    background-image: url('/images/168.jpg');
+
+    /* make a square container */
+    width: 150px;
+    height: 150px;
+
+    /* fill the container, preserving aspect ratio, and cropping to fit */
+    background-size: cover;
+
+    /* center the image vertically and horizontally */
+    background-position: top center;
+
+    /* round the edges to a circle with border radius 1/2 container size */
+    border-radius: 50%;
+
+    -webkit-box-shadow: 0 0 0 5px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 0 0 5px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.1);
+    box-shadow: 0 0 0 5px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.1);
+
+    float: left;
+    margin-right: 45px;
+    margin-bottom: 25px;
+}

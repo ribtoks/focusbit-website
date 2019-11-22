@@ -16,6 +16,9 @@
 #section-two,
 #section-four {
     background-color: #FAFAFC;
+    .section-content {
+        justify-self: flex-start;
+    }
 }
 
 .section .wrapper {
@@ -77,10 +80,6 @@
         margin-top: 0px;
         margin-bottom: 20px;
     }
-}
-
-#section-two .section-content {
-    justify-self: flex-end;
 }
 
 @media screen and (max-width:767px) {

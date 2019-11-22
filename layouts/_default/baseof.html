@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ $.Site.LanguageCode | default "en" }}">
 <head>
-  {{ partial "site-head.html" . }}
+  {{- partial "site-head.html" . -}}
 </head>
 <body class='{{block "body_class" . }}{{ end }}'>
     {{- $.Scratch.Set "free_download"       $.Params.free_download -}}
@@ -13,9 +13,9 @@
         <div class="main-content">
             {{block "main" . }}{{ end }}
         </div>
-        {{ partial "free-download" . }}
-        {{ partial "contact-support" . }}
+        {{- partial "free-download" . -}}
     </main>
+    {{- partial "contact-support" . -}}
     {{- partial "site-footer.html" . -}}
     {{- partial "site-scripts.html" .  -}}
 </body>

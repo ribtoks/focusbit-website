@@ -26,7 +26,7 @@
     grid-column-gap: 60px;
 }
 
-@media screen and (max-width:991px) {
+@media screen and (max-width:767px) {
     .section .wrapper {
         -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
@@ -60,6 +60,10 @@
 @media screen and (max-width:768px) {
     .section-image {
         height: 300px;
+        img {
+            max-height: 100%;
+            padding-left: 20px;
+        }
     }
 }
 
@@ -79,8 +83,14 @@
     justify-self: flex-end;
 }
 
-@media screen and (max-width:991px) {
+@media screen and (max-width:767px) {
     #section-two .section-content {
+        -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+        order: -1;
+        justify-self: flex-start;
+    }
+    #section-four .section-content {
         -webkit-box-ordinal-group: 0;
         -ms-flex-order: -1;
         order: -1;

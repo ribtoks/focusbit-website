@@ -1,19 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://focusbitapp.com/blog/</loc>
-    <lastmod>2019-11-08T21:59:01+02:00</lastmod>
+    <loc>https://focusbitapp.com/blog/2019/black-friday-sale/</loc>
+    <lastmod>2019-11-25T11:27:01+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://focusbitapp.com/getting-started-macos/</loc>
-    <lastmod>2019-11-08T21:59:01+02:00</lastmod>
+    <loc>https://focusbitapp.com/blog/</loc>
+    <lastmod>2019-11-25T11:27:01+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://focusbitapp.com/</loc>
+    <lastmod>2019-11-25T11:27:01+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://focusbitapp.com/getting-started-macos/</loc>
     <lastmod>2019-11-08T21:59:01+02:00</lastmod>
   </url>
   

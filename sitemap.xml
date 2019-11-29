@@ -48,6 +48,10 @@
   </url>
   
   <url>
+    <loc>https://focusbitapp.com/</loc>
+  </url>
+  
+  <url>
     <loc>https://focusbitapp.com/about/</loc>
   </url>
   
@@ -77,10 +81,6 @@
   
   <url>
     <loc>https://focusbitapp.com/tags/</loc>
-  </url>
-  
-  <url>
-    <loc>https://focusbitapp.com/</loc>
   </url>
   
 </urlset>

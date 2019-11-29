@@ -1,6 +1,5 @@
 ---
 layout : "page-home"
-title: Xpiks is a free and open source keywording and uploading tool
 url : /
 free_download : true
 ---

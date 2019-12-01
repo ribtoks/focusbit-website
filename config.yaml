@@ -1,9 +1,9 @@
 baseURL: "https://focusbitapp.com/"
 languageCode: "en-us"
-title: "FocusBit is a GTD application with pomodoro timer and TODO planner"
+title: "FocusBit is a GTD app with pomodoro timer and TODO planner"
 enableRobotsTXT: true
 params:
-  description: "GTD application with pomodoro timer and TODO planner"
+  description: "GTD app with pomodoro timer and TODO planner"
   google_universal_analytics: UA-10412407-13
   google_universal_analytics_cookiedomain: auto
 
